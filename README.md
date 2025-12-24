@@ -1,4 +1,3 @@
-# Resume-Analyzer-CSV-Generator
 # AI-Powered Resume Analyzer
 
 This application extracts structured information from resumes (PDF/DOCX)
