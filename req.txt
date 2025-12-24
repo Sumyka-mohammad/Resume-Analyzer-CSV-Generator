@@ -1,0 +1,10 @@
+streamlit
+python-dotenv
+google-generativeai
+
+langchain
+langchain-openai
+openai
+pandas
+python-docx
+pdfplumber
