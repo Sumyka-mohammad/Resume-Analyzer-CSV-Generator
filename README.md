@@ -1,4 +1,4 @@
- #🤖AI Resume Analyzer & CSV Generator
+# 🤖AI Resume Analyzer & CSV Generator
 An AI-powered Resume Analyzer built using Streamlit + LangChain + OpenAI that processes multiple resumes (PDF/DOCX) from a ZIP file, extracts structured candidate data, and generates a downloadable CSV file.
 
 # 🚀 Project Overview
