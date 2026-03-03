@@ -2,7 +2,7 @@
 An AI-powered Resume Analyzer built using Streamlit + LangChain + OpenAI that processes multiple resumes (PDF/DOCX) from a ZIP file, extracts structured candidate data, and generates a downloadable CSV file.
 
 🚀 Project Overview
-Recruiters and HR teams often receive resumes in bulk—commonly as ZIP files containing PDFs and DOCX documents. Manually reviewing and extracting information from each resume is time-consuming, inconsistent, and error-prone.
+- Recruiters and HR teams often receive resumes in bulk—commonly as ZIP files containing PDFs and DOCX documents. Manually reviewing and extracting information from each resume is time-consuming, inconsistent, and error-prone.
 This project solves that problem by using Large Language Models (LLMs) to automatically analyze resumes and generate a clean, structured CSV that can be easily filtered, searched, and analyzed.
 
 ✨ Features
@@ -22,19 +22,19 @@ This project solves that problem by using Large Language Models (LLMs) to automa
 - Links (LinkedIn, GitHub, Portfolio)
 
 🏗️ System Architecture
-ZIP File (PDF / DOCX)
+- ZIP File (PDF / DOCX)
         ↓
-File Extraction
+- File Extraction
         ↓
-Text Extraction (PDF & DOCX)
+- Text Extraction (PDF & DOCX)
         ↓
-Gemini + LangChain
+- Gemini + LangChain
         ↓
-Structured Resume Data
+- Structured Resume Data
         ↓
-CSV Generation
+- CSV Generation
         ↓
-Download via Streamlit
+- Download via Streamlit
 
 🛠 Tech Stack
 - Frontend: Streamlit
@@ -52,6 +52,7 @@ Download via Streamlit
 - GOOGLE_API_KEY=your_gemini_api_key
 # 2 Run the application
 - streamlit run app.py
+
 💼 Use Cases
 - HR resume screening automation
 - Bulk resume parsing
