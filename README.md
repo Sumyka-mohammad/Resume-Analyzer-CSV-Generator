@@ -5,7 +5,7 @@ An AI-powered Resume Analyzer built using Streamlit + LangChain + OpenAI that pr
 - Recruiters and HR teams often receive resumes in bulk—commonly as ZIP files containing PDFs and DOCX documents. Manually reviewing and extracting information from each resume is time-consuming, inconsistent, and error-prone.
 This project solves that problem by using Large Language Models (LLMs) to automatically analyze resumes and generate a clean, structured CSV that can be easily filtered, searched, and analyzed.
 
-# ✨ Features
+## ✨ Features
 📂 Upload ZIP file of resumes
 📄 Supports PDF and DOCX formats
 🧠 AI-powered structured data extraction
@@ -14,14 +14,14 @@ This project solves that problem by using Large Language Models (LLMs) to automa
 ⚡ Clean Streamlit UI
 🔒 Deterministic extraction (temperature=0)
 
-# 🧠 Extracted Resume Information
+## 🧠 Extracted Resume Information
 - Each resume is converted into structured fields such as:
 - Professional Summary
 - Total Experience (text-based)
 - Skills (list format)
 - Links (LinkedIn, GitHub, Portfolio)
 
-# 🏗️ System Architecture
+## 🏗️ System Architecture
 - ZIP File (PDF / DOCX)
         ↓
 - File Extraction
@@ -36,7 +36,7 @@ This project solves that problem by using Large Language Models (LLMs) to automa
         ↓
 - Download via Streamlit
 
-# 🛠 Tech Stack
+## 🛠 Tech Stack
 - Frontend: Streamlit
 - LLM Framework: LangChain
 - Model: OpenAI (gpt-4o-mini)
@@ -45,7 +45,7 @@ This project solves that problem by using Large Language Models (LLMs) to automa
 - Data Handling: pandas
 - Environment Management: python-dotenv
 
-# 🚀 How to Run Locally
+## 🚀 How to Run Locally
 - pip install -r requirements.txt
 # 1 Set up environment variables:
 - Create a .env file:
@@ -53,7 +53,7 @@ This project solves that problem by using Large Language Models (LLMs) to automa
 # 2 Run the application
 - streamlit run app.py
 
-# 💼 Use Cases
+## 💼 Use Cases
 - HR resume screening automation
 - Bulk resume parsing
 - Candidate data standardization
