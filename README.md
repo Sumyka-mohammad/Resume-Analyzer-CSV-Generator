@@ -22,20 +22,21 @@ This project solves that problem by using Large Language Models (LLMs) to automa
 - Links (LinkedIn, GitHub, Portfolio)
 
 ## 🏗️ System Architecture
- . ZIP File (PDF / DOCX)
+```
+ ZIP File (PDF / DOCX)
         ↓
- . File Extraction
+ File Extraction
         ↓
- . Text Extraction (PDF & DOCX)
+ Text Extraction (PDF & DOCX)
         ↓
- . Gemini + LangChain
+ Gemini + LangChain
         ↓
- . Structured Resume Data
+ Structured Resume Data
         ↓
-  . CSV Generation
+ CSV Generation
         ↓
- . Download via Streamlit
-
+ Download via Streamlit
+```
 ## 🛠 Tech Stack
 - Frontend: Streamlit
 - LLM Framework: LangChain
